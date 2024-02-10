@@ -19,11 +19,11 @@ section {
 }
 .produkt-kort {
     max-width: 600px;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
     /* border: 1px solid black; */
     border-radius: 20px;
     background-color: white;
@@ -33,7 +33,8 @@ section {
 
 img {
     height: auto;
-    width: 300px;
+    max-width: 300px;
+    min-width: 100px;
     flex-shrink: 1;
 }
 
