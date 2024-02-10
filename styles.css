@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(222, 239, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin: 100px 0
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.produkt-kort {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.13),
+    -20px -20px 30px rgba(255, 255, 255, 0.34);
+}
+
+img {
+    height: auto;
+    width: 300px;
+    flex-shrink: 1;
+}
+
+h3 {
+    margin: 20px 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(176, 219, 255);
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
